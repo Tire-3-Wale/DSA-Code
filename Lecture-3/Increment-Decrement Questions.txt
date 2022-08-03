@@ -1,0 +1,19 @@
+                           Guess The Output
+
+Ques1:- int a = 5 , b = 7;
+		int ans = ++a + b++ - --a - ++b;
+		cout << ans;
+
+
+Ques2:- int x = 10 , y = 0 , z = 15;
+
+		int ans = z+y + ++z + y++ - --y;
+		cout << x << endl;
+		cout << y << endl;
+		cout << z << endl;
+		cout << ans << endl;
+
+
+Ques3:- int x = 0 , y = -1;
+		int ans = ++x - --y - ++x + y-- + y; 
+		cout << ans;	
